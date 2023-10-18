@@ -29,6 +29,10 @@ The relationship for each of the table is shown below
 ```
      npm i -d sequelize-cli
 ```
+- create a .env file with the content
+  ```
+  JWT_KEY = JULO_BACKEND
+  ```
 ### 3. Setting up the database
 - After installation, open the config folder and open the config.json
 - On the development object, replace the username and password with the username and password you used for making postgres database
